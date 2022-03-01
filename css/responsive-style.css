@@ -45,7 +45,27 @@
     }
 }
 @media (max-width: 330px) {
+    .identitas{
+        padding-bottom: 170px;
+    }
     .iden{
-        margin-top: -300px;
+        margin-top: -200px;
+    }
+    h1{
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 4px;
+    }
+    .photoku{
+        width: 100%;
+    }
+    .identitas p{
+        width: 90%;
+    }
+    .akun-project{
+    }
+    .project-saya{
+        padding-top: 100px;
     }
 }
