@@ -3,15 +3,20 @@
 }
 
 @media (max-width: 991px){
-    
+    .identitas{
+        padding-bottom: 40px;
+    }
+    .iden{
+        margin-top: -500px;
+    }
 }
 
 @media (max-width: 767px) {
     .identitas{
-        padding-bottom: 170px;
+        padding-bottom: 40px;
     }
     .iden{
-        margin-top: -400px;
+        margin-top: -500px;
     }
     h1{
         color: white;
@@ -36,6 +41,9 @@
         margin-top: -400px;
         padding-bottom: 150px;
     }
+    .identitas{
+        padding-bottom: 180px;
+    }
     .project-saya{
         margin-top: 50px;
         padding-top: 150px;
@@ -44,12 +52,29 @@
         margin-top: -60px;
     }
 }
-@media (max-width: 330px) {
+
+@media (max-width: 430px) {
     .identitas{
-        padding-bottom: 170px;
+        padding-bottom: 220px;
     }
     .iden{
-        margin-top: -200px;
+        margin-top: -350px;
+    }
+}
+@media (max-width: 375px) {
+    .identitas{
+        padding-bottom: 330px;
+    }
+    .iden{
+        margin-top: -300px;
+    }
+}
+@media (max-width: 330px) {
+    .identitas{
+        padding-bottom: 330px;
+    }
+    .iden{
+        margin-top: -280px;
     }
     h1{
         color: white;
@@ -57,15 +82,24 @@
         font-weight: 600;
         letter-spacing: 4px;
     }
-    .photoku{
-        width: 100%;
-    }
-    .identitas p{
-        width: 90%;
-    }
-    .akun-project{
-    }
     .project-saya{
-        padding-top: 100px;
+        padding-top: 130px;
+    }
+}
+
+@media (max-width : 280px) {
+    .identitas{
+        padding-bottom: 330px;
+    }
+    .iden{
+        margin-top: -280px;
+    }
+}
+@media (max-width : 280px) {
+    .identitas{
+        padding-bottom: 460px;
+    }
+    .iden{
+        margin-top: -200px;
     }
 }
