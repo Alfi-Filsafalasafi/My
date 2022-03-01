@@ -7,8 +7,11 @@
 }
 
 @media (max-width: 767px) {
+    .identitas{
+        padding-bottom: 170px;
+    }
     .iden{
-        margin-top: -430px;
+        margin-top: -400px;
     }
     h1{
         color: white;
@@ -19,13 +22,30 @@
     .photoku{
         width: 100%;
     }
+    .identitas p{
+        width: 100%;
+    }
+    .akun-project{
+    }
+    .project-saya{
+        padding-top: 100px;
+    }
 }
-
+@media (max-width: 550px) {
+    .iden{
+        margin-top: -400px;
+        padding-bottom: 150px;
+    }
+    .project-saya{
+        margin-top: 50px;
+        padding-top: 150px;
+    }
+    .akun-project{
+        margin-top: -60px;
+    }
+}
 @media (max-width: 330px) {
-    h1{
-        color: white;
-        font-size: 40px;
-        font-weight: 600;
-        letter-spacing: 4px;
+    .iden{
+        margin-top: -300px;
     }
 }
