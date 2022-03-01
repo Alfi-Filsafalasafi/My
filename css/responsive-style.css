@@ -64,9 +64,9 @@
         margin-top: -350px;
     }
 }
-@media (max-width: 389px) {
+@media (max-width: 392px) {
     .identitas{
-        padding-bottom: 340px;
+        padding-bottom: 350px;
     }
     .iden{
         margin-top: -300px;
@@ -74,7 +74,7 @@
 }
 @media (max-width: 375px) {
     .identitas{
-        padding-bottom: 340px;
+        padding-bottom: 350px;
     }
     .iden{
         margin-top: -300px;
@@ -82,7 +82,7 @@
 }
 @media (max-width: 330px) {
     .identitas{
-        padding-bottom: 340px;
+        padding-bottom: 350px;
     }
     .iden{
         margin-top: -280px;
@@ -100,7 +100,7 @@
 
 @media (max-width : 280px) {
     .identitas{
-        padding-bottom: 330px;
+        padding-bottom: 350px;
     }
     .iden{
         margin-top: -280px;
