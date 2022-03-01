@@ -16,7 +16,6 @@
         padding-bottom: 40px;
     }
     .iden{
-        width: 100%;
         margin-top: -500px;
     }
     h1{
@@ -39,8 +38,13 @@
     }
 }
 @media (max-width: 550px) {
+    nav{
+        width: 80%;
+    }
+    
     .iden{
         margin-top: -400px;
+        width: 99%;
         padding-bottom: 150px;
     }
     .identitas{
@@ -63,12 +67,19 @@
         margin-top: -350px;
     }
 }
+@media (max-width: 389px) {
+    .identitas{
+        padding-bottom: 330px;
+    }
+    .iden{
+        margin-top: -300px;
+    }
+}
 @media (max-width: 375px) {
     .identitas{
         padding-bottom: 330px;
     }
     .iden{
-        width: 90%;
         margin-top: -300px;
     }
 }
