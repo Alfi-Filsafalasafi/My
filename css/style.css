@@ -215,6 +215,12 @@ h4{
 .best-portofolio h5{
     color: white;
 }
+.best-portofolio h2{
+    color: white;
+}
+.best-portofolio p{
+    color: var(--text-color);
+}
 p.card-text{
     color: #FFBA19;
 
@@ -227,8 +233,11 @@ p.card-text{
 }
 .card-img-bottom.image-port{
     width: 100%;
-    height: 18vw;
+    height: 14vw;
     object-fit: cover;
+}
+.card.img-bottom.image-port.uiux{
+    height: 14vw;
 }
 
 /* contact saya*/
@@ -293,4 +302,11 @@ label{
 .pesanContact:hover{
     background-color: #3F3F50;
     color: white;
+}
+
+
+
+/* //uiuxhtml */
+.best-portofolio.page{
+    margin-top: -30px;
 }
