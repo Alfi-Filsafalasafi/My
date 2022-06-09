@@ -113,14 +113,14 @@ h4{
 }
 
 .show {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--v-color);
-    background-color: none;
+    background-color: var(--primary-color);
     border: none;
 }
 .show:hover{
-    background-color: #282833;
-    color: var(--v-color);
+    background-color: var(--v-color);
+    color: var(--primary-color);
 }
 
 .medsos a {
@@ -133,8 +133,17 @@ h4{
     background: var(--primary-color);
     border-radius: 50%;
 }
+.medsos a:hover {
+    color: var(--primary-color);
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background: var(--v-color);
+}
+
 .iden{
-    position: absolute;
     margin-top: -500px;
     padding-bottom: 200px;
     z-index: 1;
@@ -154,12 +163,14 @@ h4{
 .akun-project .row{
     background: var(--primary-color);
     padding: 30px;
+    border-radius: 10px;
 }
 .akun-project .akun-p {
     background: var(--secondary-color);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .akun-pp:hover{
