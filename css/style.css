@@ -321,3 +321,20 @@ label{
 .best-portofolio.page{
     margin-top: -30px;
 }
+
+/* Tambahkan ini di akhir file CSS Anda */
+.pagination .page-item .page-link {
+    color: #282833; /* Mengubah warna teks pagination */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #282833; /* Mengubah warna latar belakang tombol aktif */
+    border-color: #282833; /* Mengubah warna border tombol aktif */
+    color: #ffffff; /* Mengubah warna teks tombol aktif menjadi putih */
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #282833; /* Mengubah warna latar belakang tombol saat di-hover */
+    border-color: #282833; /* Mengubah warna border tombol saat di-hover */
+    color: #ffffff; /* Mengubah warna teks tombol saat di-hover menjadi putih */
+}
